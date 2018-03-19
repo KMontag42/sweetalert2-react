@@ -28,7 +28,8 @@ const ALLOWS_KEYS = [
   "inputPlaceholder",
   "showLoaderOnConfirm",
   "position",
-  "backdrop"
+  "backdrop",
+  "background"
 ];
 
 const REMOVED_KEYS = ["timer", "allowOutsideClick", "allowEscapeKey"];
@@ -115,6 +116,7 @@ export const withSwalInstance = swalInstance =>
         "bottom-end"
       ]),
       backdrop: PropTypes.string,
+      background: PropTypes.string,
 
       // custom option
       show: PropTypes.bool,
